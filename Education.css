@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+}
+#page{
+    background: url(34.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    line-height: 30px;
+    padding: 10px 80px;
+    position: fixed;
+    z-index: 1;
+}
+.ree{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    top: 13px;
+    left: 70px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 11px;
+}
+nav ul li a:hover{
+    color: brown;
+}
+nav ul li .active{
+    color: brown;
+}
+.text{
+    text-align: center;
+    padding-left: 0;
+    padding-top: 50px;
+}
+.text h1{
+    font-family: bulky;
+    font-size: 45; 
+    padding-top: 30px;
+}
+.Elementary{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 25px;
+}
+.Elementary h1{
+    font-family: Charlotte Smoothy;
+    color: gray;
+    font-weight: bold;
+    font-size: 25px; 
+    padding-top: 5px;
+}
+.elem{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 0px;
+    line-height: 18px;
+}
+.elem p{
+    font-family: verdana;
+    font-size: 15; 
+    padding-top: 0px;
+}
+.Junior{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 10px;
+}
+.Junior h1{
+    font-family: Charlotte Smoothy;
+    color: gray;
+    font-weight: bold;
+    font-size: 25px; 
+    padding-top: 20px;
+}
+.js{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 0px;
+    line-height: 18px;
+}
+.js p{
+    font-family: verdana;
+    font-size: 15; 
+    padding-top: 0px;
+}
+.Senior{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 10px;
+}
+.Senior h1{
+    font-family: Charlotte Smoothy;
+    color: gray;
+    font-weight: bold;
+    font-size: 25px; 
+    padding-top: 20px;
+}
+.shs{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 0px;
+    line-height: 18px;
+}
+.shs p{
+    font-family: verdana;
+    font-size: 15; 
+    padding-top: 0px;
+}
+.College{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 10px;
+}
+.College h1{
+    font-family: Charlotte Smoothy;
+    color: gray;
+    font-weight: bold;
+    font-size: 25px; 
+    padding-top: 20px;
+}
+.col{
+    text-align: left;
+    padding-left: 0;
+    padding-top: 0px;
+    line-height: 18px;
+}
+.col p{
+    font-family: verdana;
+    font-size: 15; 
+    padding-top: 0px;
+}
+@media screen and (max-width: 600px){
+    nav{
+        font-size: 5;
+        width: 100%;
+        height: 40px;
+        background-color: white;
+        line-height: 30px;
+        padding: 6px 2px;
+        position: fixed;
+        z-index: 1;
+        padding-right: 20px;
+    }
+    .ree{
+        width: 40px;
+        height: 18px;
+        position: absolute;
+        top: 13px;
+        left: 20px;
+    }
+    nav ul{
+        float: right;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;   
+    }
+    nav ul li a{
+        color: black;
+        font-weight: 550;
+        text-decoration: none;
+        font-size: 11px;
+        padding: 0px 2px;   
+    }
+    .text{
+        text-align: center;
+        padding-left: 30px;
+        padding-top: 45px;
+    }
+    .text h1{
+        font-family: bulky;
+        font-size: 25px; 
+        padding-top: 10px;
+    }
+    .Elementary{
+        text-align: left;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .Elementary h1{
+        font-family: Charlotte Smoothy;
+        color: grey;
+        font-weight: bold;
+        font-size: 15px; 
+        padding-top: 10px;
+        line-height: 15px;
+    }
+    .elem{
+        text-align: left;
+        padding-left: 0;
+        padding-top: 0px;
+        line-height: 10px;
+    }
+    .elem p{
+        font-family: verdana;
+        font-size: 12; 
+        padding-top: 0px;
+        line-height: 12px;
+    }
+    .Junior{
+        text-align: left;
+        padding-left: 0;
+        padding-top: 12px;
+    }
+    .Junior h1{
+        font-family: Charlotte Smoothy;
+        color: gray;
+        font-weight: bold;
+        font-size: 15px; 
+        padding-top: 10px;
+    }
+    .js{
+        text-align: left;
+        padding-left: 0;
+        padding-top: 0px;
+        line-height: 10px;
+    }
+    .js p{
+        font-family: verdana;
+        font-size: 12; 
+        padding-top: 0px;
+        line-height: 12px;
+    }
+    .Senior{
+        text-align: left;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    .Senior h1{
+        font-family: Charlotte Smoothy;
+        color: grey;
+        font-weight: bold;
+        font-size: 15; 
+        padding-top: 10px;
+    }
+    .shs{
+        text-align: left;
+        padding-left: 0;
+        padding-top: 0px;
+        line-height: 10px;
+    }
+    .shs p{
+        font-family: verdana;
+        font-size: 12; 
+        padding-top: 0px;
+        line-height: 12px;
+    }
+    .College{
+        text-align: left;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    .College h1{
+        font-family: Charlotte Smoothy;
+        color: gray;
+        font-weight: bold;
+        font-size: 15px; 
+        padding-top: 10px;
+    }
+    .col{
+        text-align: left;
+        padding-left: 0;
+        padding-top: 0px;
+        line-height: 10px;
+    }
+    .col p{
+        font-family: verdana;
+        font-size: 12px;
+        padding-top: 0px;
+        line-height: 12px;
+    }
+}

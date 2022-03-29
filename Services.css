@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+
+}
+#page{
+    background: url(34.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    line-height: 30px;
+    padding: 10px 80px;
+    position: fixed;
+    z-index: 1;
+}
+.ree{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    top: 13px;
+    left: 70px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 11px;
+}
+nav ul li a:hover{
+    color: brown;
+}
+nav ul li .active{
+    color: brown;
+}
+.text{
+    text-align: center;
+    padding-left: 0;
+    padding-top: 50px;
+}
+.text h1{
+    font-family: bulky;
+    font-size: 45; 
+    padding-top: 30px;
+}
+.rel{
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+.rel h1{
+    font-family: Honest Darling;
+    color: gray;
+    font-weight: bold;
+    font-size: 40px; 
+    padding-top: 5px;
+}
+.relevant{
+    text-align: left;
+    padding-left: 70;
+    padding-top: 0px;
+    line-height: 25px;
+}
+.relevant p{
+    font-family: LUCKY TYPEWRITER;
+    font-size: 30px; 
+    padding-top: 0px;
+}
+.fre{
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+.fre h1{
+    font-family: Honest Darling;
+    color: gray;
+    font-weight: bold;
+    font-size: 40px; 
+    padding-top: 5px;
+}
+.free{
+    text-align: left;
+    padding-left: 70;
+    padding-top: 0px;
+    line-height: 35px;
+}
+.free p{
+    font-family: LUCKY TYPEWRITER;
+    font-size: 30px; 
+    padding-top: 0px;
+}
+@media screen and (max-width: 600px){
+    nav{
+        font-size: 5;
+        width: 100%;
+        height: 40px;
+        background-color: white;
+        line-height: 30px;
+        padding: 6px 2px;
+        position: fixed;
+        z-index: 1;
+        padding-right: 20px;
+    }
+    .ree{
+        width: 40px;
+        height: 18px;
+        position: absolute;
+        top: 13px;
+        left: 20px;
+    }
+    nav ul{
+        float: right;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;   
+    }
+    nav ul li a{
+        color: black;
+        font-weight: 550;
+        text-decoration: none;
+        font-size: 11px;
+        padding: 0px 2px;   
+    }
+    .text{
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .text h1{
+        font-family: bulky;
+        font-size: 25px; 
+        padding-top: 10px;
+    }
+    .rel{
+        text-align: left;
+        padding-left: 35px;
+        padding-top: 30px;
+    }
+    .rel h1{
+        font-family: Honest Darling;
+        color: gray;
+        font-weight: bold;
+        font-size: 20px; 
+        padding-top: 5px;
+    }
+    .relevant{
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 15px;
+        padding-top: 0px;
+        line-height: 25px;
+    }
+    .relevant p{
+        font-family: LUCKY TYPEWRITER;
+        font-size: 15px; 
+        padding-top: 0px;
+    }
+    .fre{
+        text-align: left;
+        padding-left: 35px;
+        padding-top: 30px;
+    }
+    .fre h1{
+        font-family: Honest Darling;
+        color: gray;
+        font-weight: bold;
+        font-size: 20px; 
+        padding-top: 5px;
+    }
+    .free{
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+        line-height: 35px;
+    }
+    .free p{
+        font-family: LUCKY TYPEWRITER;
+        font-size: 15px; 
+        padding-top: 0px;
+    }
+}
